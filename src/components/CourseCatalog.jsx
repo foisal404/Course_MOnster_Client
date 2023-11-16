@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "react-tabs-scrollable/dist/rts.css";
 import './CourseCatelog.css'
 import CatalogCard from "./CatalogCard/CatalogCard";
+import { Link } from "react-router-dom";
 
 const CourseCatalog = () => {
     
@@ -47,6 +48,9 @@ const CourseCatalog = () => {
 
       {/* Display content based on active tab */}
       <div>{tabContents[activeTab]}</div>
+     <div className="p-5 text-center">
+     <Link className="uppercase bg-[#E8EDFF] text-blue-500 font-medium p-3 rounded-lg px-16 text-sm inline-block">All Courses</Link>
+     </div>
     </>
   );
 };
