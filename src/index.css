@@ -1,3 +1,7 @@
+:root{
+    --rts-secondary-color:  #0F3CD9;
+}
+
 @import "keep-react/src/main.min.css";
 @tailwind base;
 @tailwind components;

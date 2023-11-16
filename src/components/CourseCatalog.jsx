@@ -2,6 +2,7 @@ import { Tabs, Tab } from "react-tabs-scrollable";
 import { useEffect, useState } from "react";
 import "react-tabs-scrollable/dist/rts.css";
 import './CourseCatelog.css'
+import CatalogCard from "./CatalogCard/CatalogCard";
 
 const CourseCatalog = () => {
     
@@ -17,7 +18,7 @@ const CourseCatalog = () => {
   }, []);
   const [testdata, setTestData] = useState([]);
   const [testCate, setTestCate] = useState([]);
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(0);
 
   const onTabClick = (e, index) => {
     console.log(e);
@@ -25,11 +26,14 @@ const CourseCatalog = () => {
   };
 
   // Define content for each tab
-  const tabContents = testdata.map((item, index) => (
+  const tabContents = testCate.map((item, index) => (
     <div key={index} >
-      <h2>Tab {item.title}</h2>
-      <p>Content for Tab {item.description}</p>
-      {/* Add your specific data or components related to each tab here */}
+      {/* <h2>{item.name}</h2> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 place-items-stretch">
+      {
+        testdata.filter(data=>data.category=== item.name).slice(0,4).map((card,idx)=><CatalogCard key={idx} data={card} />)
+      }
+      </div>
     </div>
   ));
 

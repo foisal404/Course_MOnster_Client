@@ -2,6 +2,22 @@
     {
       "title": "Web Development Bootcamp",
       "description": "Learn full-stack web development with this intensive bootcamp.",
+      "instructor":  "Alex cool",
+      "duration": "12 weeks",
+      "ratings": 4.5,
+      "category": "Programming",
+      "enrolledStudents": 2,
+      "syllabus": ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+      "published": true,
+      "startDate": "2023-08-01",
+      "batch": "Batch A",
+      "price": 499.99,
+      "offerPrice": 399.99,
+      "courseThumbnail": "https://images.unsplash.com/photo-1531498860502-7c67cf02f657?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "React Bootcamp",
+      "description": "Learn full-stack web development with this intensive bootcamp.",
       "instructor":  "USER",
       "duration": "12 weeks",
       "ratings": 4.5,
@@ -13,7 +29,39 @@
       "batch": "Batch A",
       "price": 499.99,
       "offerPrice": 399.99,
-      "courseThumbnail": "https://example.com/web-dev-thumbnail.jpg"
+      "courseThumbnail": "https://images.unsplash.com/photo-1518818608552-195ed130cdf4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "Web Development Bootcamp ii",
+      "description": "Learn full-stack web development with this intensive bootcamp.",
+      "instructor":  "USER",
+      "duration": "12 weeks",
+      "ratings": 4.5,
+      "category": "Programming",
+      "enrolledStudents": 2,
+      "syllabus": ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+      "published": true,
+      "startDate": "2023-08-01",
+      "batch": "Batch A",
+      "price": 499.99,
+      "offerPrice": 399.99,
+      "courseThumbnail": "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "Python For Everyday",
+      "description": "Build cross-platform mobile apps using React Native.",
+      "instructor":  "USER",
+      "duration": "14 weeks",
+      "ratings": 4.8,
+      "category": "Programming",
+      "enrolledStudents": 2,
+      "syllabus": ["React Native Basics", "Navigation", "State Management", "API Integration"],
+      "published": true,
+      "startDate": "2024-01-15",
+      "batch": "Batch F",
+      "price": 699.99,
+      "offerPrice": 599.99,
+      "courseThumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "title": "Data Science Fundamentals",
