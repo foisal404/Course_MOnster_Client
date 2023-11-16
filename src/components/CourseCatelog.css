@@ -1,0 +1,15 @@
+:root{
+    --rts-primary-color:  #5100ff; 
+}
+/* Custom CSS to change active tab  */
+/* .rts___tab___selected {
+    background-color: #5100ff; 
+    color: #ffffff; 
+  } */
+  /* Custom CSS to change arrow */
+.rts___nav___btn{
+    margin-top: 12px;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+}

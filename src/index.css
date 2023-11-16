@@ -2,7 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+ 
+
 .futura-font{
     font-family: futura;
 }

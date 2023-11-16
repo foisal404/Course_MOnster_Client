@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Data Science"
+    },
+    {
+      "id": 3,
+      "name": "Marketing"
+    },
+    {
+      "id": 4,
+      "name": "Design"
+    },
+    {
+      "id": 5,
+      "name": "Language"
+    },
+    {
+      "id": 6,
+      "name": "Art"
+    },
+    {
+      "id": 7,
+      "name": "Finance"
+    },
+    {
+      "id": 8,
+      "name": "Health & Wellness"
+    },
+    {
+      "id": 9,
+      "name": "Business"
+    }
+  ]

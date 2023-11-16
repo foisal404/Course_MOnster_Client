@@ -17,7 +17,7 @@ const Navhead = () => {
               className="lg:flex hidden items-center justify-between gap-8 text-sm"
             >
               <Navbar.Link linkName="Home"  className='uppercase text-purple-100'/>
-              <Navbar.Link linkName="About Us" className='uppercase text-purple-100'/>
+              <Navbar.Link linkName="About Us" color className='uppercase text-purple-100'/>
               {/* <Navbar.Link linkName="Projects" /> */}
             </Navbar.Container>
             <Navbar.Collapse collapseType="sidebar">
@@ -34,7 +34,7 @@ const Navhead = () => {
 
           <Navbar.Container className="flex gap-2 tex">
             
-            <Button size="sm"  customClass='md:px-10 uppercase '  >All Courses</Button>
+            <Button size="sm"  customClass='md:px-10 uppercase sm:text-sm md:text-4xl' >Courses</Button>
             <Button size="sm" color customClass='md:px-10 bg-[#9C35DE] text-[#fff] uppercase'>
               Login 
             </Button>
