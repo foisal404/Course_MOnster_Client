@@ -1,6 +1,7 @@
 import CourseCatalog from "../components/CourseCatalog";
 import HeroSection from "../components/HeroSection";
 import FeaturedSection from "../components/featuredsection/FeaturedSection";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <HeroSection/>
             <CourseCatalog/>
             <FeaturedSection/>
+            <Footer/>
         </>
     );
 };

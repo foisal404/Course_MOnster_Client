@@ -30,7 +30,7 @@ const CourseCatalog = () => {
   const tabContents = testCate.map((item, index) => (
     <div key={index} >
       {/* <h2>{item.name}</h2> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 place-items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5  md:place-items-stretch ">
       {
         testdata.filter(data=>data.category=== item.name).slice(0,4).map((card,idx)=><CatalogCard key={idx} data={card} />)
       }

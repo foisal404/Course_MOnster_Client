@@ -17,11 +17,11 @@ const CatalogCard = ({ data }) => {
   } = data;
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 hover:border-gray-400 rounded-lg shadow flex flex-col justify-between">
+      <div className="max-w-sm bg-white border  border-gray-200 hover:border-gray-400 rounded-lg shadow flex flex-col justify-between">
         <div>
           <a href="#">
             <img
-              className="rounded-t-lg w-full h-[147px]"
+              className="rounded-t-lg w-full h-[147px] "
               src={courseThumbnail}
               alt=""
             />
